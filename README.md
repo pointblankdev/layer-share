@@ -1,4 +1,4 @@
-# layer-share
+# Layer Share
 
 Publicly hosted layers. Attach to your Lambda for rapid prototyping.
 
