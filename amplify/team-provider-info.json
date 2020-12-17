@@ -1,0 +1,80 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-layershare-prod-211233-authRole",
+      "UnauthRoleArn": "arn:aws:iam::377694881846:role/amplify-layershare-prod-211233-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::377694881846:role/amplify-layershare-prod-211233-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-layershare-prod-211233-deployment",
+      "UnauthRoleName": "amplify-layershare-prod-211233-unauthRole",
+      "StackName": "amplify-layershare-prod-211233",
+      "StackId": "arn:aws:cloudformation:us-east-2:377694881846:stack/amplify-layershare-prod-211233/b62b1620-4015-11eb-a303-06fde8170fbc",
+      "AmplifyAppId": "d8dhvqswo5hdj"
+    },
+    "nonCFNdata": {
+      "function": {
+        "AWSAppSync": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "public"
+                },
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "sI9rDrEmPqExI8pl3OqICf92Wh50oPEiKcNamwST28g="
+            }
+          }
+        },
+        "Axios": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "public"
+                },
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "R/MIKJ6eAeAEDhYSv/BdTpMKEnzhGDWK5lyzUA727to="
+            }
+          }
+        },
+        "Lodash": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "public"
+                },
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "BP2OC1m2UX68s8BTO7kcUH5EyojTSY1KPZU2Ma+EGw8="
+            }
+          }
+        }
+      }
+    },
+    "categories": {
+      "function": {
+        "Axios": {
+          "deploymentBucketName": "amplify-layershare-prod-211233-deployment",
+          "s3Key": "amplify-builds/Axios-build.zip"
+        },
+        "Lodash": {
+          "deploymentBucketName": "amplify-layershare-prod-211233-deployment",
+          "s3Key": "amplify-builds/Lodash-build.zip"
+        },
+        "AWSAppSync": {
+          "deploymentBucketName": "amplify-layershare-prod-211233-deployment",
+          "s3Key": "amplify-builds/AWSAppSync-build.zip"
+        }
+      }
+    }
+  }
+}
